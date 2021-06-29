@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "601246087454",
+    "project_id": "candot-5dd91",
+    "storage_bucket": "candot-5dd91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601246087454:android:c1f41c879c4ec04048f10f",
+        "android_client_info": {
+          "package_name": "com.candoTS_ventas_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601246087454-sqt5e7ipccinhkguqu6p52djmdrtnk7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlgamA-PqB8LOfJFtRfKA5KDWPyKWSW-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601246087454-sqt5e7ipccinhkguqu6p52djmdrtnk7u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
