@@ -11,7 +11,7 @@ import 'package:flutter_sixvalley_ecommerce/view/screen/support/add_ticket_scree
 class IssueTypeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    List<String> issueTypeList = ['Website Problem', 'Partner request', 'Complaint', 'Info inquiry'];
+    List<String> issueTypeList = ['Problema del sitio web', 'Solicitud de socio', 'Queja', 'Consulta de información'];
 
 
     return CustomExpandedAppBar(
