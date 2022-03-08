@@ -62,7 +62,7 @@ class ColorResources {
     return Provider.of<ThemeProvider>(context).darkTheme ? Color(0xFF49698c) : Color(0xFF7DB6F5);
   }
   static Color getPrimary(BuildContext context) {
-    return Provider.of<ThemeProvider>(context).darkTheme ? Color(0xFFf0f0f0) : Color(0xFF257800);
+    return Provider.of<ThemeProvider>(context).darkTheme ? Color(0xFFf0f0f0) : Color(0xFF7DB6F5);
   }
 
   static const Color BLACK = Color(0xff000000);

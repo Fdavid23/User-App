@@ -1,7 +1,7 @@
 import 'package:flutter_sixvalley_ecommerce/data/model/response/language_model.dart';
 
 class AppConstants {
-  static const String BASE_URL = 'https://garageindustria.com/';
+  static const String BASE_URL = 'http://lavictoria.persontechnology.com/';
   static const String USER_ID = 'userId';
   static const String NAME = 'name';
   static const String CATEGORIES_URI = 'api/v1/categories';

@@ -1,6 +1,6 @@
 class Images {
-  static const String splash_logo = 'assets/images/selloRgb.png';
-  static const String splash_logo1 = 'assets/images/garage.png';
+  static const String splash_logo = 'assets/images/logo27.png';
+
   static const String more_filled_image = 'assets/images/more_filled.png';
   static const String cart_arrow_down_image =
       'assets/images/cart_arrow_down.png';

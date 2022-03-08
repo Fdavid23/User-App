@@ -14,11 +14,11 @@
 
     <application
         android:name=".Application"
-        android:label="Garage_Republik"
+        android:label="Lácteos_Victoria"
         android:requestLegacyExternalStorage="true"
         android:usesCleartextTraffic="true"
         android:networkSecurityConfig="@xml/network_security_config"
-        android:icon="@mipmap/sello">
+        android:icon="@mipmap/logo27">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

@@ -9,18 +9,18 @@ class ApiErrorHandler {
         if (error is DioError) {
           switch (error.type) {
             case DioErrorType.cancel:
-              errorDescription = "Request to API server was cancelled";
+              errorDescription = "Se canceló la solicitud al servidor API";
               break;
             case DioErrorType.connectTimeout:
-              errorDescription = "Connection timeout with API server";
+              errorDescription = "Tiempo de espera de conexión con el servidor API";
               break;
             case DioErrorType.other:
               errorDescription =
-              "Connection to API server failed due to internet connection";
+              "La conexión al servidor API falló debido a la conexión a Internet";
               break;
             case DioErrorType.receiveTimeout:
               errorDescription =
-              "Receive timeout in connection with API server";
+              "Tiempo de espera de recepción en conexión con el servidor API";
               break;
             case DioErrorType.response:
               switch (error.response.statusCode) {
@@ -37,21 +37,21 @@ class ApiErrorHandler {
                     errorDescription = errorResponse;
                   else
                     errorDescription =
-                    "Failed to load data - status code: ${error.response.statusCode}";
+                    "Error al cargar datos - código de estado: ${error.response.statusCode}";
               }
               break;
             case DioErrorType.sendTimeout:
-              errorDescription = "Send timeout with server";
+              errorDescription = "Enviar tiempo de espera con el servidor";
               break;
           }
         } else {
-          errorDescription = "Unexpected error occured";
+          errorDescription = "Ocurrió un error inesperado";
         }
       } on FormatException catch (e) {
         errorDescription = e.toString();
       }
     } else {
-      errorDescription = "is not a subtype of exception";
+      errorDescription = "no es un subtipo de excepción";
     }
     return errorDescription;
   }

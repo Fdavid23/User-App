@@ -14,7 +14,7 @@ class OnBoardingRepo {
       List<OnboardingModel> onBoardingList = [
         OnboardingModel(
             'assets/images/onboarding_image_one.png',
-            'Bienvenido a Garage_Republik',
+            'Lácteos La Victoria',
             'Aquí comprar es fácil y divertido con 50 mil productos, promociones exclusivas, ofertas y promociones.'),
         OnboardingModel(
             'assets/images/onboarding_image_two.png',

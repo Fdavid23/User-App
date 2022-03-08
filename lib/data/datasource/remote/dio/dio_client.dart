@@ -51,7 +51,7 @@ class DioClient {
     } on SocketException catch (e) {
       throw SocketException(e.toString());
     } on FormatException catch (_) {
-      throw FormatException("Unable to process the data");
+      throw FormatException("No se pueden procesar los datos");
     } catch (e) {
       throw e;
     }
@@ -77,7 +77,7 @@ class DioClient {
       );
       return response;
     } on FormatException catch (_) {
-      throw FormatException("Unable to process the data");
+      throw FormatException("No se pueden procesar los datos");
     } catch (e) {
       throw e;
     }
@@ -125,7 +125,7 @@ class DioClient {
       );
       return response;
     } on FormatException catch (_) {
-      throw FormatException("Unable to process the data");
+      throw FormatException("No se pueden procesar los datos");
     } catch (e) {
       throw e;
     }
